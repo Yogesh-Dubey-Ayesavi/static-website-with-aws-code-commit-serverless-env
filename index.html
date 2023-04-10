@@ -1,12 +1,507 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Hello world!</title>
-        <link rel="stylesheet" href="main.css" />
-    </head>
-    <body>
-        <h1 >Hello world! This is a static website hosted by Amazon S3 and managed by AWS CodePipeline.</h1>
-        <img src="graphic.jpg"/>
-        <a href="nomad.html">Visit W3Schools.com!</a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Index</title>
+    <script src="https://kit.fontawesome.com/71fc53c7f6.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <section id="title">
+        <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#"><img src="bit7.png" alt="bit_logo"></a>
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="custom-ligth-btn custom-btn" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                  <a class="custom-dark-btn custom-btn" href="#pricing">MIS Login</a>
+              </li>
+          </ul>
+       </div>
+      </nav>
+        </div>
+      <nav class="navbar navbar-expand-lg">
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse custom-secondary-nav-parent" id="navbarSupportedContent">
+        <ul class="navbar-nav custom-secondary-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#footer">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#pricing">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#cta">Admission</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#cta">Research</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#cta">Training & Placements</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#cta">Events</a>
+            </li>
+        </ul>
+     </div>
+    </nav>
+    </section>  
+
+    <section id="events-carousel">
+        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active"  data-bs-interval="2500">
+              <img class="carousel-image" src="1.png" alt="carousel-image1">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2500">
+              <img class="carousel-image" src="3.png" alt="carousel-image-2">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2500">
+                <img class="carousel-image" src="6.png" alt="carousel-image-3">
+              </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+    </section>
+
+    <section id="visionary">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 custom-align">
+              <div class="custom-image-holder mx-auto">
+                <img class="custom-visionary-img" src="seth_balkrishna.png" alt="late seth Balkrishan">
+              </div>
+              
+              <p class="custom-txt my-4">Late Seth Balkrishan</p>
+          </div>
+          <div class="col-lg-6">
+            <h1>The Visionary...</h1>
+            <span class="custom-underline"></span>
+            <p class="my-5">Seth Balkrishna was great a philanthropist and a Paragon of human virtues his contribution in the field of education sports social and spiritual need of the community are legendary in Bhilai and indeed in the region his enlightened a humanity stands today as a beacon of hope in the difficult times</p>
+            <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container-fluid">
+        <div class="row">    
+          <div class="col-lg-6">
+            <h1>About BIT</h1>
+            <span class="custom-underline"></span>
+            <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nisi voluptatem cupiditate harum explicabo magnam ipsum nihil sit provident nostrum modi ad quibusdam, dolor officiis quos in nam est velit dignissimos, obcaecati deleniti! Eveniet ut, ducimus voluptate totam dolores ullam.</p>
+            <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="col-lg-6 custom-align">
+            <div class="custom-image-holder mx-auto">
+              <img class="custom-visionary-img" src="seth_balkrishna.png" alt="late seth Balkrishan">
+            </div>
+        </div>
+        </div>
+        <div class="row my-5">    
+          <div class="col-lg-6">
+            <h1>Foundation</h1>
+            <span class="custom-underline"></span>
+            <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nisi voluptatem cupiditate harum explicabo magnam ipsum nihil sit provident nostrum modi ad quibusdam, dolor officiis quos in nam est velit dignissimos, obcaecati deleniti! Eveniet ut, ducimus voluptate totam dolores ullam.</p>
+            <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="col-lg-6 custom-align">
+            <div class="custom-image-holder mx-auto">
+              <img class="custom-visionary-img" src="seth_balkrishna.png" alt="late seth Balkrishan">
+            </div>
+            <p class="custom-txt my-4">Late Seth Balkrishan</p>  
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="principal">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 custom-container">
+            
+            <div class="custom-image-holder">
+              <img src="principal.jfif" class="custom-principal-img" alt="">
+            </div>
+            <div class="custom-text-holder">
+              <h1>Principal's Corner</h1>
+              <span class="custom-underline"></span>
+              <p class="my-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos autem corrupti dolore assumenda pariatur debitis.</p>
+              <div class="custom-read-more-btn">Read More</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="bitr-buzz">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-center">BIT Raipur Buzz</h1>
+            <span class="custom-underline-center"></span>
+            <br>
+            <p class='my-4 custom-half-width'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est doloribus non architecto eum dicta vero maiores libero quae expedita iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ut!</p>
+            <br><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img src="bitr-buzz-1.png" alt="principal">
+          </div>
+          <div class="col w-75">
+            <div class="row ">
+              <div class="col">
+                <div class="upcoming-events"><h4>Upcoming Events</h4></div>
+                <span class="custom-underline w-50"></span>
+              </div>
+              <div class="col">
+                <div class="notice-board"><h4>Notice Board</h4></div>
+                <span class="custom-underline w-50"></span>
+              </div>
+              <img src="bitr-buzz-2.png" class="rounded-3 w-75 p-3" alt="principal">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    
+    <section id="academic-unit">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-center">Academic Unit</h1>
+            <span class="custom-underline-center"></span>
+            <br>
+            <p class="my-4 custom-half-width">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt doloribus excepturi vitae deserunt amet impedit nobis, saepe esse dicta magni accusantium at labore sint et.</p>
+            <br><br>
+            <div class="row">
+              <div class="col">
+                <div class="row text-center">
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h4>Departments</h4>
+                    <span class="custom-underline-center w-75"></span>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h4>Reasearch and Development</h4>
+                    <span class="custom-underline-center w-75"></span>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h4>Partner Colleges</h4>
+                    <span class="custom-underline-center w-75"></span>
+                  </div>
+                </div>
+                <br><br>
+                <div class="row text-center custom-academics">
+                  <div class="col-lg-3 col-md-6 col-sm-12 computer-science card">
+                    <img src="cs.png" class="card-img">
+                    <h5 class="text-light py-5 card-img-overlay">Computer Science</h5>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12 mechanical card">
+                    <img src="mech.png" class="card-img">
+                    <h5 class="text-light py-5 card-img-overlay">Mechanical</h5>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12 civil card">
+                    <img src="civil.png" class="card-img">
+                    <h5 class="text-light py-5 card-img-overlay">Civil</h5>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12 electrical card">
+                    <img src="electrical.png" class="card-img">
+                    <h5 class="text-light py-5 card-img-overlay">Electrical</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="why-bit">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-center">Why BIT</h1>
+            <span class="custom-underline-center"></span>
+            <br><br>
+            <div class="card">
+              <img src="whybit.png" class="card-img">
+              <div class="card-img-overlay">
+                <h1 class="text-xxl-center text-light custom-why-bit mx-5 ">Join the BIT Raipur community and be a part of the future of technology.</h1>
+                <p class="text-center text-light custom-why-bit">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, similique. </p>
+                <br>
+                <div class="custom-whybit-buttons justify-content-center">
+                  <button class="custom-read-more-btn">Get Started with Admissions<br><i class="fa-solid fa-arrow-right"></i></button>
+                  <button class="custom-ligth-btn text-light custom-btn">Schedule a Call</button>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Research">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Research Spotlight</h1>
+            <span class="custom-underline"></span>
+            <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aspernatur aut dicta atque autem maiores ad et suscipit reprehenderit quibusdam!</p>
+            <div class="custom-read-more-btn-dark">Read More</div>
+          </div>
+          <div class="col-lg-6 custom-align-right">
+            <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active"  data-bs-interval="3500">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="sample research.avif" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Reasearch 1</h5>
+                      <p class="card-text custom-compact-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary custom-theme-color">Read More</a>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="carousel-item" data-bs-interval="3500">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="sample research.avif" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Reasearch 2</h5>
+                      <p class="card-text custom-compact-text">Some quick example text to build on the card titleskbsbshb and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary custom-theme-color">Read More</a>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="carousel-item" data-bs-interval="3500">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="sample research.avif" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Reasearch 3</h5>
+                      <p class="card-text custom-compact-text">Some quick example text to build on the card title and make up the bulk of the card's contskjjbsjbsent.</p>
+                      <a href="#" class="btn btn-primary custom-theme-color">Read More</a>
+                    </div>
+                  </div>
+                  </div>
+            </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Results">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 custom-align">
+            <h1>Our Results in Numbers</h1>
+            <span class="custom-underline mx-auto"></span>
+            <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est porro explicabo hic vel mollitia culpa.</p>
+            <div>
+              <div class="container">
+                  <div class="row text-center my-5">
+                        <div class="col">
+                        <div class="counter">
+                    <!-- <i class="fa fa-code fa-2x"></i> -->
+                    <i class="fa-sharp fa-solid fa-books fa-2x"></i>
+                    <h2 class="timer count-title count-number" data-to="49" data-speed="1500"></h2>
+                    <p class="count-text ">Courses Offered</p>
+                  </div>
+                        </div>
+                            <div class="col">
+                            <div class="counter">
+                    <!-- <i class="fa fa-coffee fa-2x"></i> -->
+                    <!-- <i class="fa fa-code fa-2x"></i> -->
+                    <i class="fa-solid fa-screen-users"></i>
+                    <i class="fa-duotone fa-screen-users fa-2x"></i>
+                    <h2 class="timer count-title count-number" data-to="500" data-speed="1500"></h2>
+                    <p class="count-text ">Students</p>
+                  </div>
+                            </div>
+                            <div class="col">
+                                <div class="counter">
+                    <i class="fa fa-lightbulb-o fa-2x"></i>
+                    <h2 class="timer count-title count-number" data-to="40" data-speed="1500"></h2>
+                    <p class="count-text ">Faculty & Staff</p>
+                  </div></div>
+                      </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="amenities">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 custom-align">
+            <h1>Amenities Offered</h1>
+            <span class="custom-underline mx-auto"></span>
+            <p class="my-4 custom-amenties-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla architecto optio sed accusamus doloribus maiores?</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 custom-for-grid mx-auto">
+
+            <div class="custom-grid">
+              <div class="grid-e1 grid-item">
+                <h4>Campus-wide Wi-Fi access </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsam harum aliquid.</p>
+                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+              <div class="grid-e2 grid-item">
+                <h4>Well-equipped computer labs</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsam harum aliquid.</p>
+                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+              <div class="grid-e3 grid-item">
+                <h4>Transportation facilities</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsam harum aliquid.</p>
+                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+              <div class="grid-e4 grid-item">
+                <h4>Sports facilities</h4>
+                <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsam harum aliquid.</p>
+                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 custom-align">
+            <h1>Frequently Asked Questions</h1>
+            <span class="custom-underline mx-auto"></span>
+            <p class="my-4 custom-amenties-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla architecto optio sed accusamus doloribus maiores?</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 custom-align">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item my-4 custom-faq">
+                <h2 class="accordion-header h2-trial" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button btn-trial" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    What are the admission requirements for B.Tech/M.Tech/Diploma candidates at your college?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body custom-faq-answer">
+                    The admission procedure at our college is centralized counseling conducted by DTE, CG, Raipur. To know the counseling schedule, rules and regulations, please visit the official website of DTE, Raipur. The following documents and fees are required for admission after allotment by Director, Technical Education, CG, Raipur:
+
+Allotment Letter provided by Director, Technical Education, CG, Raipur
+Entrance Exam Score Card (PET/JEE Mains)
+Four passport-sized photographs (with name and branch written on the back)
+Class 10th Marksheet
+Class 12th Marksheet
+Graduation Marksheet/Diploma Mark Sheet
+Domicile Certificate (Niwas Praman Patra)
+Transfer Certificate
+Character Certificate
+Migration Certificate (Except CG Board)
+Gap Certificate (if applicable)
+Caste Certificate: for SC/ST/OBC candidates (if applicable)
+Tuition fees to be paid in the form of Demand Draft/Multicity Cheque
+Aadhar Card photocopy
+Bank Account Passbook photocopy
+                  </div>
+                </div>
+              </div> 
+              <div class="accordion-item my-4">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item my-4">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 custom-align">
+            <h1>Glipses of Campus Life</h1>
+            <span class="custom-underline mx-auto"></span>
+            <p class="my-4 custom-amenties-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla architecto optio sed accusamus doloribus maiores?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="photos">
+      <div class="row">
+        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner  photo-cover">
+            <div class="carousel-item active"  data-bs-interval="2000">
+              <div class="photo-container">
+                <img class="photo" src="1.png" alt="carousel-image1">
+              </div>
+            </div>
+            <div class="carousel-item photo-cover" data-bs-interval="2000">
+              <div class="photo-container">
+                <img class="photo" src="3.png" alt="carousel-image-2">
+              </div>
+            </div>
+
+            <div class="carousel-item photo-cover" data-bs-interval="2000">
+              <div class="photo-container">
+                <img class="photo" src="6.png" alt="carousel-image-3">
+              </div>
+              </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
     </body>
-</html>
+    </html>
+    

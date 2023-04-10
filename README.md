@@ -1,1 +1,2 @@
-# static-website-with-aws-code-commit-serverless-env
+# website
+This repository holds the website of BIT - Raipur
